@@ -1,0 +1,291 @@
+.logo-image {
+    width: 450px;
+    height: 60px;
+  }
+  #page-wrapper {
+   background-color: #c9cba3;
+    position: relative;
+  }
+  header {
+    
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    width: 100%;
+    background-color:  #FFE1A8;
+  }
+  .header{
+    top: 0px;
+    width: 960px;
+  }
+  h1{
+    margin-top: 100px;
+    font-family: "Sofia";
+    font-size: 60px;
+  }
+  h2::before {
+    font-family: 'Font Awesome 5 free';
+    font-size: 35px;
+    content: "\f06d";
+    color: #472D30;
+    margin-right: 35px;
+  }
+  h3::before {
+    font-family: 'Font Awesome 5 free';
+    font-size: 35px;
+    content: "\f48b";
+    color: #472D30;
+    margin-right: 20px;
+  }
+  h4::before{
+  font-family: 'Font Awesome 5 free';
+    font-size: 30px;
+    content: "\f240";
+    color: #472D30;
+    margin-right: 20px;
+    
+  }
+  
+  p {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav {
+    width: 100%;
+    direction: flex;
+    justify-content: flex-end;
+  
+    }
+  nav{
+    margin: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    }
+  
+  .form-page {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .form {
+    text-align: center;
+   
+  }
+  button {
+    font-size: 20px;
+    font-family: Sofia;
+    margin: 20px;
+    background-color: #E26D5C;
+    padding: 10px 50px;
+  }
+  #email {
+    margin-top: 15px;
+    padding: 10px 50px;
+  }
+  .video-page {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .container {
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 960px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+    
+  }
+  footer{
+    padding: 20px;
+    background-color:  #FFE1A8;
+  }
+  footer>ul{
+    display:flex;
+    justify-content: flex-end;
+    
+  }
+  *{
+    border-sizing: border-box;
+  }
+  a{
+    color: #472D30;
+  }
+  a:hover{
+    color: #E26D5C ;
+  }
+  footer>span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    
+  }
+  ul{
+    padding: 0px;
+    box-sizing: border-box;
+    }
+  footer>ul>li{
+    padding: 0 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  #features{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .grid {
+    display: grid;
+    box-sizing: border-box;
+  }
+  #ol {
+    list-style: none;
+  }
+  .product > ol > li {
+    padding: 5px 0;
+    margin: 5px;
+  }
+  .product > ol {
+    margin: 15px 0;
+    font-weight: 400;
+  }
+  
+  li {
+    list-style: none;
+    
+  }
+  .product > button {
+    border: 0;
+    margin: 40px;
+  }
+  h5, h6 ,h8, h10 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  h7, h9{
+     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+     margin-top: 40px !important;
+  }
+  
+  
+  .level{
+    margin: 0px;
+    height: 100px;
+  }
+    h5{
+      margin-top: 8px !important;
+    }   
+  
+  h2, h3,h4{
+    font-size: 25px;
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .product > .level {
+    background-color: #E26D5C;
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+    justify-content:center;
+  
+  }
+  #bass>.level{
+    padding: 32px 105px;
+  }
+  
+  #valve>.level{
+    padding: 20px 105px;
+  }
+  #tenor>.level{
+    padding: 12px 105px;
+  }
+  #bass{
+    background-color: #FFE1A8;
+  }
+
+  #tenor{
+    background-color: #FFE1A8;
+  }
+  #valve{
+    background-color: #FFE1A8;
+  }
+  @keyframes backgroundAnimation {
+    0% { background-color: #CE6A85; }
+    50% { background-color: #1d3030; }
+    100% { background-color: DarkSlateGray; }
+  }
+
+  .animated-bg {
+    animation: backgroundAnimation 5s infinite;
+  }
+  
+  
+  #header {
+    transition: background-color 0.5s;
+  }
+  
+  
+  
+  button {
+    transition: background-color 0.5s;
+  }
+  
+  button:hover {
+    background-color: #FF8C61;
+  }
+  
+ 
+  @keyframes fadeAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+  .animated {
+    animation: fadeAnimation 1s forwards;
+  }
+  
+ 
+
+       
