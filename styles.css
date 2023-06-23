@@ -264,9 +264,7 @@
     transition: background-color 0.5s;
   }
   
-  button:hover {
-    background-color: #FF8C61;
-  }
+
   
  
   @keyframes fadeAnimation {
