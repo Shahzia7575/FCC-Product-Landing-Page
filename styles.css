@@ -3,7 +3,7 @@
     height: 60px;
   }
   #page-wrapper {
-   background-color: #c9cba3;
+   background-color: #AA4A44	;
     position: relative;
   }
   header {
@@ -13,7 +13,7 @@
     top: 0;
     padding: 0 20px;
     width: 100%;
-    background-color:  #FFE1A8;
+    background-color: #A52A2A	;
   }
   .header{
     top: 0px;
@@ -28,28 +28,29 @@
     font-family: 'Font Awesome 5 free';
     font-size: 35px;
     content: "\f06d";
-    color: #472D30;
-    margin-right: 35px;
+    color: black;
+    margin-right: 50px;
+  
   }
   h3::before {
     font-family: 'Font Awesome 5 free';
     font-size: 35px;
     content: "\f48b";
-    color: #472D30;
-    margin-right: 20px;
+    color: #000;
+    margin-right: 35px;
   }
   h4::before{
   font-family: 'Font Awesome 5 free';
     font-size: 30px;
     content: "\f240";
-    color: #472D30;
-    margin-right: 20px;
+    color: #000;
+    margin-right: 35px;
     
   }
   
   p {
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
   }
   ul {
     list-style: none;
@@ -70,7 +71,7 @@
     }
   
   .form-page {
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +91,7 @@
   #email {
     margin-top: 15px;
     padding: 10px 50px;
+    background-color: #FFE1A8;
   }
   .video-page {
     height: 360px;
@@ -117,7 +119,7 @@
   }
   footer{
     padding: 20px;
-    background-color:  #FFE1A8;
+    background-color:  #A52A2A;
   }
   footer>ul{
     display:flex;
@@ -128,7 +130,7 @@
     border-sizing: border-box;
   }
   a{
-    color: #472D30;
+    color: black;
   }
   a:hover{
     color: #E26D5C ;
@@ -182,8 +184,9 @@
     margin: 5px;
   }
   .product > ol {
-    margin: 15px 0;
+    margin-top: 15px;
     font-weight: 400;
+    margin-left: -30px;
   }
   
   li {
@@ -224,7 +227,7 @@
     box-sizing: border-box;
   }
   .product > .level {
-    background-color: #E26D5C;
+    background-color: #A52A2A	;
     padding: 10px 100px 10px 100px;
     text-align: center;
     justify-content:center;
@@ -241,24 +244,16 @@
     padding: 12px 105px;
   }
   #bass{
-    background-color: #FFE1A8;
+    background-color: #AA4A44;
   }
 
   #tenor{
-    background-color: #FFE1A8;
+    background-color: #AA4A44	;
   }
   #valve{
-    background-color: #FFE1A8;
-  }
-  @keyframes backgroundAnimation {
-    0% { background-color: #CE6A85; }
-    50% { background-color: #1d3030; }
-    100% { background-color: DarkSlateGray; }
+    background-color: #AA4A44	;
   }
 
-  .animated-bg {
-    animation: backgroundAnimation 5s infinite;
-  }
   
   
   #header {
