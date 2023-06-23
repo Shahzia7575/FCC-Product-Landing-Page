@@ -132,9 +132,7 @@
   a{
     color: black;
   }
-  a:hover{
-    color: #E26D5C ;
-  }
+  
   footer>span{
     margin-top: 5px;
     display: flex;
