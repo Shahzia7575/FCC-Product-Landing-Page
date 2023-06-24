@@ -1,10 +1,15 @@
 .logo-image {
-    width: 450px;
-    height: 60px;
-  }
+  width: 450px;
+  height: 60px;
+  margin-top: 3px;
+  filter: invert(100%);
+}
   #page-wrapper {
    background-color: DarkSlateGray;	;
     position: relative;
+    width: 1350px;
+
+    
   }
   header {
     
@@ -23,12 +28,13 @@
     margin-top: 100px;
     font-family: "Sofia";
     font-size: 60px;
+    color: #000;
   }
   h2::before {
     font-family: 'Font Awesome 5 free';
     font-size: 35px;
     content: "\f06d";
-    color: black;
+    color: orange;
     margin-right: 50px;
   
   }
@@ -36,14 +42,14 @@
     font-family: 'Font Awesome 5 free';
     font-size: 35px;
     content: "\f48b";
-    color: #000;
+    color: orange;
     margin-right: 35px;
   }
   h4::before{
   font-family: 'Font Awesome 5 free';
     font-size: 30px;
     content: "\f240";
-    color: #000;
+    color: orange;
     margin-right: 35px;
     
   }
@@ -51,6 +57,9 @@
   p {
     font-size: 20px;
     margin-left: 80px;
+    width: 900px;
+    color: black;
+    font-weight: 500 ;
   }
   ul {
     list-style: none;
@@ -91,7 +100,7 @@
   #email {
     margin-top: 15px;
     padding: 10px 50px;
-    background-color: #FFE1A8;
+    background-color: whitesmoke;
   }
   .video-page {
     height: 360px;
@@ -104,7 +113,8 @@
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 100px;
-    width: 960px;
+    margin-right: -20px;
+    width: 450px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -126,11 +136,9 @@
     justify-content: flex-end;
     
   }
-  *{
-    border-sizing: border-box;
-  }
+  
   a{
-    color: black;
+    color: whitesmoke;
   }
   
   footer>span{
@@ -161,9 +169,13 @@
     border-radius: 3px;
   }
   #features{
-    margin-top: 20px;
+
     margin-bottom: 40px;
+   
+    width: 1350px;
+    
   }
+ 
   #pricing {
     margin-top: 60px;
     display: flex;
@@ -185,6 +197,7 @@
     margin-top: 15px;
     font-weight: 400;
     margin-left: -30px;
+    color: #000;
   }
   
   li {
@@ -199,13 +212,15 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
+    color: black;
   }
   h7, h9{
      text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
      margin-top: 40px !important;
+     color: black;
   }
   
   
@@ -219,6 +234,9 @@
   
   h2, h3,h4{
     font-size: 25px;
+    margin-top: 30px;
+    color: black;
+    letter-spacing: 0.01cm;
   }
   * {
     margin: 0;
@@ -277,6 +295,56 @@
     animation: fadeAnimation 1s forwards;
   }
   
- 
+ /* Responsive styles for smaller screens */
+
+@media only screen and (max-width: 600px) {
+  .logo-image {
+      width: 250px;
+      height: 40px;
+  }
+
+  h1 {
+      font-size: 40px;
+  }
+
+  body{
+    width: 500px;
+    background-color: darkslategray !important;
+  }
+  .form-page{
+    width: 600px !important;
+  }
+  .video-page {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: auto;
+  }
+  /* Update other styles as needed for smaller screens */
+}
+
+/* Responsive styles for medium-sized screens */
+
+@media only screen and (max-width: 960px) {
+  .container {
+      
+      margin: 0 auto;
+  }
+#page-wrapper{
+  width: 900px;
+  
+}
+
+  /* Update other styles as needed for medium-sized screens */
+}
+
+/* Responsive styles for larger screens */
+
+@media only screen and (min-width: 1200px) {
+  /* Update styles as needed for larger screens */
+  
+}
+
 
        

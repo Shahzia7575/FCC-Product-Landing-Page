@@ -24,3 +24,4 @@ document.addEventListener("DOMContentLoaded", function() {
   // Apply animation to the element
   header.classList.add("animated");
   
+  
