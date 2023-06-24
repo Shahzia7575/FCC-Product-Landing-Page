@@ -80,7 +80,8 @@
     }
   
   .form-page {
-    height: 700px;
+   overflow: auto;
+   height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,5 +347,67 @@
   
 }
 
+@media only screen and (max-width: 1080px) {
+  /* Styles specific to Redmi Note 9 Pro */
+  /* Add your styles here */
+  h1 {
+    font-size: 80px;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 80%;
+    
+    overflow: auto;
+  }
+
+  .form-page {
+    overflow: auto !important;
+    height: 3000px;
+
+  }
+  #page-wrapper{
+    position: relative;
+    overflow: auto;
+    height: 8000px;
+  }
+  nav {
+    width: 100%;
+    direction: flex;
+    justify-content: flex-end;
+    height: 100px;
+  
+    }
+  nav{
+    margin: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    }
+
+    h1{
+font-size: 200px;
+    }
+    #email {
+      margin-top: 300px;
+      padding: 10px 50px;
+      background-color: whitesmoke;
+      height: 100px;
+      width: 1000px;
+    }
+    button{
+      margin-top: 50px;
+      height: 80px;
+      width: 600px;
+      font-size: 30px;
+    }
+    .video-page {
+     
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      overflow: auto !important;
+      height: 800px;
+    }
+}
 
        
