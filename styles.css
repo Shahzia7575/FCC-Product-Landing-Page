@@ -220,7 +220,7 @@
      text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
-     margin-top: 40px !important;
+    margin-top: 40px;
      color: black;
   }
   
@@ -251,11 +251,11 @@
   
   }
   #bass>.level{
-    padding: 32px 106px;
+    padding: 32px 105px;
   }
   
   #valve>.level{
-    padding: 32px 105px;
+    padding: 20px 105px;
   }
   #tenor>.level{
     padding: 12px 105px;
@@ -363,13 +363,13 @@
 
   .form-page {
     overflow: auto !important;
-    height: 1800px;
+    height: 2000px;
 
   }
   #page-wrapper{
     position: relative;
     overflow: auto;
-    height: 6250px;
+    height: 8000px;
   }
   nav {
     width: 100%;
@@ -426,6 +426,13 @@
   align-content: end;
   padding-left: 100px;
  }
+ .product > ol {
+  font-size: 40px;
+ }
+ h6, h8, h10{
+  font-size: 60px;
+ }
+
  #video {
 width: 1000px;
 height: 600px;
@@ -434,7 +441,7 @@ h2, h3, h4 {
   font-size: 20px;
 }
   p{
-    font-size: 14px;
+    font-size: 20px;
     line-height: 50px;
     color: #000;
   }
@@ -455,21 +462,17 @@ h7, h9{
   text-transform: uppercase;
  font-weight: bold;
  font-size: 25px;
-  margin-bottom: 20px !important;
+  margin-bottom: 60px !important;
   color: black;
 }
 #bass>.level {
-  padding: 32px 85px;
+  padding: 20px 60px;
 }
 h5, h7, h9{
-  font-size: 30px;
+  font-size: 50px;
 }
-h5{
-  margin-top: 20px !important;
-}
-h9{
-  margin-top: 150px !important;
-}
+
+
 .form{
   text-align: center;
 }
@@ -483,6 +486,7 @@ h1{
   
   width: calc(100%/1);
   display: grid;
+  height: 500px;
 
 }
 .product {
@@ -491,7 +495,7 @@ h1{
 .product-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 80px;
 }
 
 #pricing {
@@ -503,6 +507,40 @@ h1{
   align-items: center;
   align-content: center;
   margin-left: 300px;
+  margin-bottom: 150px;
+}
+#bass{
+  background-color: DarkSlateGray;
+  height: 1000px;
+}
+
+#tenor{
+  background-color: DarkSlateGray;
+  height: 1000px;
+}
+#valve{
+  background-color: DarkSlateGray	;
+  height: 1000px;
+}
+.level{
+  height: 200px;
+  margin-top: -40px;
+}
+#valve>.level {
+  padding: 65px;
+}
+#bass>.level {
+  padding: 65px;
+}
+#tenor>.level {
+  padding: 65px;
+}
+footer{
+  padding: 100px 15px;
+  height: 400px;
+}
+footer > span{
+  font-size: 30px;
 }
 }
 
