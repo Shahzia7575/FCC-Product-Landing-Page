@@ -363,7 +363,7 @@
 
   .form-page {
     overflow: auto !important;
-    height: 2400px;
+    height: 2600px;
 
   }
   #page-wrapper{
@@ -539,7 +539,7 @@ h1{
 }
 footer{
   padding: 100px 15px;
-  height: 800px;
+  height: 600px;
 }
 footer > span{
   font-size: 30px;
@@ -554,14 +554,14 @@ h3::before {
 h2::before {
   font-family: 'Font Awesome 5 free';
   font-size: 60px;
-  content: "\f48b";
+  content: "\f06d";
   color: orange;
   margin-right: 35px;
 }
 h4::before {
   font-family: 'Font Awesome 5 free';
   font-size: 60px;
-  content: "\f48b";
+  content: "\f240";
   color: orange;
   margin-right: 35px;
 }
