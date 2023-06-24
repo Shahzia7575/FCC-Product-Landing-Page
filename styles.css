@@ -363,7 +363,7 @@
 
   .form-page {
     overflow: auto !important;
-    height: 3000px;
+    height: 2500px;
 
   }
   #page-wrapper{
@@ -407,6 +407,12 @@ font-size: 200px;
       margin-bottom: 40px;
       overflow: auto !important;
       height: 800px;
+    }
+    .logo-image {
+      width: 450px;
+      height: 100px;
+      margin-top: 5px;
+      filter: invert(100%);
     }
 }
 
