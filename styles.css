@@ -363,7 +363,7 @@
 
   .form-page {
     overflow: auto !important;
-    height: 2200px;
+    height: 2400px;
 
   }
   #page-wrapper{
@@ -428,6 +428,7 @@
  }
  .product > ol {
   font-size: 40px;
+  line-height: 100px;
  }
  h6, h8, h10{
   font-size: 60px;
@@ -444,6 +445,7 @@ h2, h3, h4 {
     font-size: 40px;
     line-height: 100px;
     color: #000;
+    margin-left: 120px;
   }
 
   #features{
@@ -452,11 +454,11 @@ h2, h3, h4 {
     
   }
 .product > button {
-  width: 200px;
-  height: 20px;
-  font-size: 30px;
-  padding-bottom: 60px;
-  margin-left: 400px;
+  width: 500px;
+  height: 150px;
+  font-size: 60px;
+  padding-bottom: 10px;
+  margin-left: 250px;
 }
 h7, h9{
   text-transform: uppercase;
@@ -466,10 +468,10 @@ h7, h9{
   color: black;
 }
 #bass>.level {
-  padding: 20px 60px;
+  padding: 20px 50px;
 }
 h5, h7, h9{
-  font-size: 50px;
+  font-size: 70px;
 }
 
 
@@ -490,12 +492,12 @@ h1{
 
 }
 .product {
-  margin-bottom: 20px; /* Add some vertical spacing between product boxes */
+  margin-bottom: 100px; /* Add some vertical spacing between product boxes */
 }
 .product-container {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 1000px;
 }
 
 #pricing {
@@ -511,29 +513,29 @@ h1{
 }
 #bass{
   background-color: DarkSlateGray;
-  height: 1000px;
+  height: 1500px;
 }
 
 #tenor{
   background-color: DarkSlateGray;
-  height: 1000px;
+  height: 1500px;
 }
 #valve{
   background-color: DarkSlateGray	;
-  height: 1000px;
+  height: 1500px;
 }
 .level{
   height: 200px;
-  margin-top: -40px;
+  margin-top: -120px;
 }
 #valve>.level {
   padding: 65px;
 }
 #bass>.level {
-  padding: 65px;
+  padding: 55px;
 }
 #tenor>.level {
-  padding: 65px;
+  padding: 55px;
 }
 footer{
   padding: 100px 15px;
@@ -541,6 +543,27 @@ footer{
 }
 footer > span{
   font-size: 30px;
+}
+h3::before {
+  font-family: 'Font Awesome 5 free';
+  font-size: 60px;
+  content: "\f48b";
+  color: orange;
+  margin-right: 35px;
+}
+h2::before {
+  font-family: 'Font Awesome 5 free';
+  font-size: 60px;
+  content: "\f48b";
+  color: orange;
+  margin-right: 35px;
+}
+h4::before {
+  font-family: 'Font Awesome 5 free';
+  font-size: 60px;
+  content: "\f48b";
+  color: orange;
+  margin-right: 35px;
 }
 }
 
