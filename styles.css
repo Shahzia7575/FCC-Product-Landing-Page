@@ -363,7 +363,7 @@
 
   .form-page {
     overflow: auto !important;
-    height: 2000px;
+    height: 2200px;
 
   }
   #page-wrapper{
@@ -387,7 +387,7 @@
   
     #email {
       margin-top: 300px;
-      padding: 10px 50px;
+      padding: 30px 45px;
       background-color: whitesmoke;
       height: 100px;
       width: 1000px;
@@ -438,11 +438,11 @@ width: 1000px;
 height: 600px;
 }
 h2, h3, h4 {
-  font-size: 20px;
+  font-size: 60px;
 }
   p{
     font-size: 40px;
-    line-height: 50px;
+    line-height: 100px;
     color: #000;
   }
 
@@ -456,7 +456,7 @@ h2, h3, h4 {
   height: 20px;
   font-size: 30px;
   padding-bottom: 60px;
-  margin-left: 300px;
+  margin-left: 400px;
 }
 h7, h9{
   text-transform: uppercase;
@@ -503,11 +503,11 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 800px;
+  width: 1000px;
   align-items: center;
   align-content: center;
-  margin-left: 300px;
-  margin-bottom: 150px;
+  margin-left: 180px;
+  margin-bottom: 200px;
 }
 #bass{
   background-color: DarkSlateGray;
