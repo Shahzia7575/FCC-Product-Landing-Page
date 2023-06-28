@@ -11,6 +11,10 @@
 
     
   }
+  .fa{
+    font-weight: 500;
+   
+  }
   header {
     
     display: flex;
@@ -38,6 +42,11 @@
     margin-right: 50px;
   
   }
+  h2, h3, h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: orange !important;
+ 
+  }
   h3::before {
     font-family: 'Font Awesome 5 free';
     font-size: 35px;
@@ -53,13 +62,31 @@
     margin-right: 35px;
     
   }
-  
+  .product > .level {
+    background-color: #90aead !important;
+    color: #1d3030 !important;
+    border-radius: 30px 30px 0px 0px;
+   padding: 10px 100px 10px 100px;
+   text-align: center;
+   justify-content:center;
+ 
+ }
+ h5, h6 ,h8, h10 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 40px;
+  color: #1d3030 !important;
+}
   p {
     font-size: 20px;
+    font-style:initial;
+    font-weight: 350;
     margin-left: 80px;
     width: 900px;
-    color: black;
-    font-weight: 500 ;
+    color: #90aead;
+    line-height: 2em;
+    font-family: 'Source Sans Pro', sans-serif !important;
   }
   ul {
     list-style: none;
@@ -93,10 +120,11 @@
   }
   button {
     font-size: 20px;
-    font-family: Sofia;
+    font-family: 'Source Sans Pro', sans-serif !important;
     margin: 20px;
     background-color: orange;
     padding: 10px 50px;
+
   }
   #email {
     margin-top: 15px;
@@ -159,6 +187,9 @@
     display: flex;
     justify-content: flex-end;
   }
+  h5, h7, h9{
+    text-transform: capitalize !important;
+  }
   .product {
     display: flex;
     flex-direction: column;
@@ -166,8 +197,9 @@
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
-    border-radius: 3px;
+    border: 0px ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 5px 15px !important;
   }
   #features{
 
@@ -182,6 +214,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 120px;
   }
   .grid {
     display: grid;
@@ -198,7 +231,7 @@
     margin-top: 15px;
     font-weight: 400;
     margin-left: -30px;
-    color: #000;
+    color: #90aead;
   }
   
   li {
@@ -208,20 +241,34 @@
   .product > button {
     border: 0;
     margin: 40px;
+    border-radius: 15px;
+    color: #1d3030;
+    font-size: 20px;
   }
-  h5, h6 ,h8, h10 {
+  h5 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
     margin-top: 40px;
-    color: black;
+    color: #1d3030;
+    font-family: 'Source Sans Pro', sans-serif;
   }
+  h6 ,h8, h10 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px ;
+    color: #90aead !important;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
   h7, h9{
      text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
     margin-top: 40px;
-     color: black;
+    color: #1d3030 !important;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   
@@ -230,13 +277,14 @@
     height: 100px;
   }
     h5{
-      margin-top: 8px !important;
+      margin-top: 2px !important;
+      align-self: center;
     }   
   
   h2, h3,h4{
     font-size: 25px;
     margin-top: 30px;
-    color: black;
+    
     letter-spacing: 0.01cm;
   }
   * {
@@ -244,31 +292,31 @@
     box-sizing: border-box;
   }
   .product > .level {
-    background-color: #1d3030	;
+     background-color: #90aead;
     padding: 10px 100px 10px 100px;
     text-align: center;
     justify-content:center;
   
   }
   #bass>.level{
-    padding: 32px 105px;
+    padding: 22px 160px;
   }
   
   #valve>.level{
-    padding: 20px 105px;
+    padding: 22px 120px;
   }
   #tenor>.level{
-    padding: 12px 105px;
+    padding: 20px 120px;
   }
   #bass{
-    background-color: DarkSlateGray;
+    background-color: #1d3030 !important;
   }
 
   #tenor{
-    background-color: DarkSlateGray;
+    background-color: #1d3030 !important;
   }
   #valve{
-    background-color: DarkSlateGray	;
+    background-color: #1d3030 !important;
   }
 
   
@@ -281,6 +329,8 @@
   
   button {
     transition: background-color 0.5s;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 350;
   }
  
 
@@ -398,6 +448,7 @@
       height: 200px;
       width: 600px;
       font-size: 60px;
+      font-family: 'Source Sans Pro', sans-serif !important; 
     }
     .video-page {
      
@@ -430,9 +481,16 @@
  .product > ol {
   font-size: 40px;
   line-height: 100px;
+  color: #90aead;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 5px;
  }
  h6, h8, h10{
   font-size: 60px;
+  
+  margin-top: 50px !important;
+  align-self: center;
+  align-content: center;
  }
  h2{
   margin-left: 30px;
@@ -444,6 +502,7 @@ height: 600px;
 }
 h2, h3, h4 {
   font-size: 60px;
+   color: orange !important;
 }
   p{
     font-size: 40px;
@@ -461,8 +520,12 @@ h2, h3, h4 {
   width: 500px;
   height: 150px;
   font-size: 60px;
+  font-family: 'Source Sans Pro', sans-serif !important;
   padding-bottom: 10px;
   margin-left: 250px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  align-self: center;
 }
 h7, h9{
   text-transform: uppercase;
@@ -476,6 +539,8 @@ h7, h9{
 }
 h5, h7, h9{
   font-size: 70px;
+  text-transform: capitalize !important;
+  
 }
 
 
@@ -492,16 +557,16 @@ h1{
   
   width: calc(100%/1);
   display: grid;
-  height: 500px;
+  height: 150px;
 
 }
 .product {
-  margin-bottom: 100px; /* Add some vertical spacing between product boxes */
+  margin-bottom: 250px; /* Add some vertical spacing between product boxes */
 }
 .product-container {
   display: flex;
   flex-direction: column;
-  gap: 1000px;
+  gap: 500px;
 }
 
 #pricing {
@@ -513,20 +578,20 @@ h1{
   align-items: center;
   align-content: center;
   margin-left: 180px;
-  margin-bottom: 200px;
+  margin-bottom: 400px;
 }
 #bass{
   background-color: DarkSlateGray;
-  height: 1500px;
+  height: 1300px;
 }
 
 #tenor{
   background-color: DarkSlateGray;
-  height: 1500px;
+  height: 1300px;
 }
 #valve{
   background-color: DarkSlateGray	;
-  height: 1500px;
+  height: 1300px;
 }
 .level{
   height: 200px;
@@ -544,6 +609,7 @@ h1{
 footer{
   padding: 100px 15px;
   height: 600px;
+  margin-top: 150px;
 }
 footer > span{
   font-size: 30px;
@@ -568,6 +634,20 @@ h4::before {
   content: "\f240";
   color: orange;
   margin-right: 35px;
+}
+h6, h8, h10{
+  margin: 0px;
+  font-size: 80px;
+}
+p{
+  color: #90aead;
+}
+.product > button {
+  border: 0;
+ 
+  border-radius: 30px;
+  color: #1d3030;
+  font-size: 50px !important;
 }
 }
 
